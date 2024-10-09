@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+.navlink {
+  text-decoration: none;
+  color: rgb(247, 113, 41);
+  padding: 5px 10px;
+}
+
+.navlink.active {
+  color: rgb(144, 38, 22);
+  border-bottom: 1px solid rgb(144, 38, 22);
+  ;
+}
